@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const jwt = require('jsonwebtoken');
 const path = require('path');
 const User = require('./models/userModel');
-const routes = require('./routes/route.js');
+const routes = require('./routes/apiRoutes');
 
 require('dotenv').config({
 	path: path.join(__dirname, '../.env')
